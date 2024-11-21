@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[14px] sm:text-[16px]">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./images/logo2.avif" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- ion icons link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Tailwind CSS CDN Link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Daisy Ui Links -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>GK Portfolio</title>
+</head>
+
+<body style="font-family: Roboto, sans-serif;" class="bg-[#021227] text-[#cccccc]">
+
+  <!-- ********************************************** -->
+  <!-- Header Section -->
+  <!-- ********************************************** -->
+
+  <header class="bg-[#021227] max-w-screen-xl	mx-auto px-4 py-6">
+    <nav class="">
+      <ul style="font-family: 'Roboto Mono', monospace;" class="flex justify-around font-semibold">
+         <li class=""><a href="#skills" class="transition-all hover:text-[#247032]">Skills</a></li>
+        <li class=""><a href="#projects" class="transition-all hover:text-[#247032]">Projects</a></li>
+        <li class=""><a href="#contact" class="transition-all hover:text-[#247032]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- ********************************************** -->
+  <!-- Hero Section -->
+  <!-- ********************************************** -->
+
+  <section
+    class="flex flex-col-reverse sm:flex-row sm:justify-between	 lg:min-h-screen bg-[#021227] px-8 sm:px-16 py-4 max-w-screen-xl	mx-auto">
+    <!-- left side -->
+    <div class="sm:w-3/5">
+      <p style="font-family: 'Roboto Mono', monospace;" class="text-[#309543] font-semibold">Hi, my name is</p>
+      <h2 class="text-4xl lg:text-5xl xl:text-6xl	font-bold text-[#cccccc] mt-3 lg:mt-7">GHASSEN KHEMIRI.</h2>
+      <h2 class="text-3xl lg:text-4xl xl:text-5xl	font-bold text-[#247032] mt-3 lg:mt-7">Full Stack Developer.</h2>
+      <p class="mt-6 lg:mt-10 max-w-md	text-[#cccccc]">
+        I enjoy solving complex problems, designing seamless user experiences, and ensuring robust system architecture. My projects range from developing responsive user interfaces to creating secure APIs and managing databases. I’m passionate about learning new technologies and improving my skills to deliver impactful solutions. <br>
+        <span style="font-family: 'Roboto Mono', monospace;" class="font-bold text-[#309543]">Open for Work &
+          Collaboration.</span>
+      </p>
+      <div class="mt-12">
+        <a href="#skills" style="font-family: 'Roboto Mono', monospace;"
+          class="px-6 py-3 text-[#309543] border-2 border-[#309543] font-bold transition-all hover:bg-[#30954232] rounded-md">Check
+          out
+          My
+          Skills !</a>
+      </div>
+      <!-- social Links -->
+      <div class="mt-12">
+        <ul class="flex gap-4">
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://www.linkedin.com/in/ghassen-rma-352750339/" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://github.com/ghassenkhmiri99" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://www.instagram.com/ghassenkhmiri18/" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="mail: ghassenkhmiri18@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- right side -->
+    <div class="hidden sm:block sm:w-2/5">
+      <img src="./images/file(1).png"  alt="hero-img" class="">
+    </div>
+  </section>
+
+  <!-- ********************************************** -->
+  <!-- tech stack Section -->
+  <!-- ********************************************** -->
+
+  <section class="bg-[#021227] px-8 sm:px-16 py-16 max-w-screen-xl mx-auto" id="skills">
+    <div class="">
+      <div class="flex justify-center items-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold">Tech Stack</h2>
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      </div>
+
+      <!-- skills -->
+      <div class="grid grid-cols-3  sm:grid-cols-5 gap-12" style="font-family: 'Roboto Mono', monospace;">
+
+        <!-- Skill 01 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-html-5-96.svg" alt="html icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">HTML</p>
+        </div>
+
+
+        <!-- Skill 02 -->
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">CSS</p>
+        </div>
+
+        <!-- Skill 03 -->
+
+        <div class="flex flex-col items-center gap-2 ">
+          <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc] text-center">Tailwind CSS</p>
+        </div>
+
+
+        <!-- Skill 04 -->
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">JavaScript</p>
+        </div>
+        <!-- Skill 04 -->
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-react-80.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">React</p>
+        </div>
+
+
+        <!-- Skill 05 -->
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-git-96.svg" alt="git icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">Git</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ****************************************** -->
+  <!-- Some Things I’ve Built Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="projects">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold text-center">Some Things I’ve Built</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
+
+    <!-- featured projects -->
+    <div>
+
+      <!-- featured project 01 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/responsive website.png" alt="paytm clone" class="">
+            </div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+          <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">01. Responsive Store
+            TECH
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+            Our project focuses on creating a responsive online store to introduce and promote the latest smartphones. By leveraging cutting-edge web design and mobile optimization techniques, the platform will ensure seamless user experiences across devices. The store will highlight product features, specifications, and interactive elements like AR previews and comparison tools, aiming to engage customers and drive sales effectively. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+            <a href="https://github.com/ghassenkhmiri99/Responsive-Store" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 02 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">02. Restaurant Website Design
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            Our project centers on designing a responsive and visually appealing website for a restaurant. The site will showcase the restaurant's ambiance, menu offerings, and unique dining experience. Key features will include an easy-to-navigate layout, online reservation system, and interactive elements such as a photo gallery and customer reviews, ensuring an engaging and user-friendly platform that attracts and retains customers. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/ghassenkhmiri99/Resturant-project" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/resto.png" alt="resturant project" class="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 03 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none	">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/travel agency.png" alt="travel agency">
+            </div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">03. Travel Agency Website
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+            Our project involves creating a dynamic and responsive website for a travel agency, designed to inspire and assist travelers in planning their perfect trips. The site will feature an intuitive interface, destination highlights, customizable travel packages, and a seamless booking system. By integrating vibrant visuals, user-friendly navigation, and essential travel resources, the website aims to provide a comprehensive platform that enhances the customer journey from inspiration to adventure. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+            <a href="https://github.com/ghassenkhmiri99/Travel-To-Dream" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 04 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">04. GK STORE</h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            Our project is dedicated to designing a stylish and user-friendly website for a clothing brand. The platform will reflect the brand's identity while showcasing its latest collections through high-quality visuals and seamless navigation. Key features include an intuitive shopping experience, detailed product descriptions, and secure checkout options. By blending aesthetics with functionality, the website aims to captivate fashion enthusiasts and deliver a compelling online shopping experience. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/ghassenkhmiri99/GK-Project" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/gk store.png" alt="gkstore">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+  <!-- ****************************************** -->
+  <!-- Call To Action Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="contact">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold ">Get In Touch</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
+
+    <div class="mt-12 flex justify-center">
+      <ul class="flex gap-4">
+        <li class="mr-2 flex justify-center items-center">
+          <a href="mail: ghassenkhmiri18@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.linkedin.com/in/ghassen-rma-352750339/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://github.com/ghassenkhmiri99" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.instagram.com/ghassenkhmiri18/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+</body>
+
+</html>
